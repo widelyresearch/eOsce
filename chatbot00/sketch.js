@@ -7,6 +7,19 @@
 function setup() {
   noCanvas();
 
+  // variable for the RiveScript
+  let bot = new RiveScript();
+  // Load an individual file.
+  bot.loadFile("brain.rive").then(loading_done).catch(loading_error);
+  // two callbacks 1/2
+  function loading_done() {
+    console.log('Chatbot ready!')
+  }
+  // 2/2
+  function loading_error() {
+    console.log('Chatbot error!')
+  }
+
   let button = select('#submit'); //
   let user_input = select('#user_input');
   let output = select('#output');
