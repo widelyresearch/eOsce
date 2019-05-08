@@ -1,18 +1,25 @@
 // Chatbot's brain
 ! version = 2.0
 
-// ! var num = 37555
-
-+ *
-- Hola <star>
-
+// here is recieved the information from the js file
 + set #
-- <set num = <star> >
+- <set num=<star>>
 
 + #
-* <star> > <get num> => pick a lower number
-* <star> < <get num> => pick a higher number
-* <star> == <get num> => you got it!
+* <star> > <get num> => es un numero menor
+* <star> < <get num> => es un numero mayor
+* <star> == <get num> => muy bien, era <get num>. \n
+^ Ahora dime el color mas lindo.
 
-//+ *
-//- Guess a number between 1 and 10
++ (azul|negro|blanco)
+- <star> es el mas bonito que hay
+
++ *
+- Hola, dime tu nombre
+
++ _ // letras solamente
+- Hola <star>, vamos a comenzar. Elige un número de 1 a 10
+
++ como me llamo
+* <get name> == undefined => Nunca me dijiste tu nombre.
+- ¿Acaso no sabes que te llamas <get name>?

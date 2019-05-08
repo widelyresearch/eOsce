@@ -10,19 +10,24 @@ function setup() {
   function brainReady() {
     console.log('Chatbot ready!');
     bot.sortReplies();
+
+    // send information from js, to brain.rive in order to manipulate the
+    // possible responses from the bot
+    // here is passing the let num
     let num = floor(random(10)) + 1;
     console.log(num);
     let reply = bot.reply('local-user', 'set ' + num);
 
     // RiveScript remembers user data by their username and can tell
     // multiple users apart.
-    let username = "local-user";
+    let username = 'local-user';
 
     // NOTE: the API has changed in v2.0.0 and returns a Promise now.
     bot.reply(username, "Hello, bot!")
     .then(
       function(reply) {
-      console.log("The bot says: " + reply);
+      console.log('The bot says: ' + reply);
+      output.html(reply);
       }
     );
   }
@@ -39,10 +44,10 @@ function setup() {
 
   function chat() {
     let input = user_input.value();
-    bot.reply("local-user", input)
+    bot.reply('local-user', input)
     .then(
       function(reply) {
-        console.log( reply);
+        console.log(reply);
         output.html(reply);
       }
     );﻿
