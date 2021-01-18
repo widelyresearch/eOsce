@@ -1,0 +1,23 @@
+{
+  "name": "eosce",
+  "version": "1.0.0",
+  "description": "wireframes mobile and tablet",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/widelyresearch/eOsce.git"
+  },
+  "author": "nicolas troncoso - gianfranco bozzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/widelyresearch/eOsce/issues"
+  },
+  "homepage": "https://github.com/widelyresearch/eOsce#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
