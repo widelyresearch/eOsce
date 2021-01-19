@@ -65,6 +65,13 @@ hr {
     height: 50px;
 }
 
+.imagen-card{
+    width: 224px;
+    height: 150px; 
+    background-size: cover !important; 
+    background-position: center center !important;
+}
+
 .card-title{
     color: #00B1AE;
 }
@@ -85,4 +92,8 @@ hr {
 .card-box{
     background-color: F7F8FA;
     border: #C4C4C4;
+}
+
+.card-body{
+    padding-top: 0px !important;
 }

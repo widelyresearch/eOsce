@@ -74,3 +74,11 @@
       color: #00B0AE;
       font-weight: bold;
   }
+
+  .boton-detalle{
+      background-color: #00B0AE;
+      color: #FFFFFF;
+      border-radius: 5px;
+      border: none;
+      font-size: small;
+  }
