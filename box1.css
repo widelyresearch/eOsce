@@ -67,12 +67,16 @@
       border-radius: 10px;
       border: 1px solid #C4C4C4;
       box-shadow: 0px 2px #C4C4C4;
-      padding-bottom: 50px;
+      padding-bottom: 10px;
   }
   
 .titulo-columna{
       color: #00B0AE;
       font-weight: bold;
+  }
+
+  .nombre-estudiante{
+      margin-bottom: 7px;
   }
 
   .boton-detalle{
@@ -81,4 +85,5 @@
       border-radius: 5px;
       border: none;
       font-size: small;
+      margin-bottom: 3.5px;
   }
