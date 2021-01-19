@@ -35,3 +35,42 @@
     padding-top: 20px;
     background-color: #f5fffe;
 }
+
+.card-info-box{
+    box-shadow: 0px 2px #C4C4C4;
+}
+
+.info-box{
+    font-weight: bold;
+}
+
+.info-box1{
+    text-align: right;
+}
+
+.fa-circle{
+    color: #00B0AE;
+}
+
+#visualizacion {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding: 250px;
+    background: url(http://joyeriafernandez.cl/wp-content/uploads/2016/04/post-20-marzo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+  }
+
+  .tabla{
+      background-color: #FFFFFF;
+      border-radius: 10px;
+      border: 1px solid #C4C4C4;
+      box-shadow: 0px 2px #C4C4C4;
+      padding-bottom: 50px;
+  }
+  
+.titulo-columna{
+      color: #00B0AE;
+      font-weight: bold;
+  }
