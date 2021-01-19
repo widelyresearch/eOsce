@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<head>
+    <title>eOSCE</title>
+    <link rel="stylesheet" href="index.css">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/89588aca8b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=768" />
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md">
+    <a href="index.html"><img src="#"></a> 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="container-fluid">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <i class="lni lni-stats-up iconosnavegacion" style="color: #00B1AE;"></i>
+                <a class="nav-link" href="Index.html" style="color: #00B1AE; font-weight: bold;"><u>Resultados</u><span class="sr-only">(current)</span> </a>
+            </li>
+            <li class="nav-item">
+                <i class="fas fa-info-circle iconosnavegacion"></i>
+                <a class="nav-link" href="#">Info </a>
+            </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+      
+<div class="container subheader">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="titulos">Resultados</h2>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-4 filtros" type="search" placeholder="nombre estudiante" aria-label="Search">
+                <select class="form-control mr-sm-4" searchable="Search here..">
+                    <option value="" disabled selected>estado</option>
+                    <option value="1" style="color: #00B1AE;">completo</option>
+                    <option value="2" style="color: #00B1AE;">incompleto</option>
+                </select>
+                 <select class="form-control mr-sm-4" searchable="Search here..">
+                    <option value="" disabled selected>tipo de atención</option>
+                    <option value="1" style="color: #00B1AE;">ambulatoria</option>
+                    <option value="2" style="color: #00B1AE;">urgencia</option>
+                    <option value="3" style="color: #00B1AE;">sin cita</option>
+                    <option value="4" style="color: #00B1AE;">frecuente</option>
+                    <option value="5" style="color: #00B1AE;">emergencia</option>
+                </select>
+                <button class="btn my-2 my-sm-0" type="submit" style="color: #FFFFFF; background-color: #00B1AE;">Search</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid cuerpo" style="padding-bottom: 20px;">
+    <div class="row">
+        <div class="col-md-4 tiemporeal vl">
+            <p class="titulostiemporeal">Tiempo promedio</p>
+            <h2 style="font-weight: bold;">00:08:30</h2>
+            <i class="lni lni-timer iconostiemporeal"></i>
+        </div>   
+        <div class="col-md-4 tiemporeal vl">
+            <p class="titulostiemporeal">Diagnosticos completados</p>
+            <h2 style="font-weight: bold;">31/2000</h2>
+            <i class="lni lni-files iconostiemporeal"></i>
+        </div>
+        <div class="col-md-4 tiemporeal">
+            <p class="titulostiemporeal">Estudiantes registrados</p>
+            <h2 style="font-weight: bold;">10/100</h2>
+            <i class="lni lni-users iconostiemporeal"></i>
+        </div>
+    </div>
+    <hr>
+
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4">
+            <div class="card card-box" >
+                <a href="box1.html" class="stretched-link">
+                    <img class="card-img-top" src="http://joyeriafernandez.cl/wp-content/uploads/2016/04/post-20-marzo.jpg" alt="Card image cap" >
+                </a>
+                <div class="card-body">
+                    <h6 class="card-title">Box 1</h6>
+                    <div class="row">
+                        <div class="col-md-6 vl2">
+                            <p class="card-text subtitulo-cards">Atención: Ambulatoria</p>
+                            <p class="card-text texto-cards">N total de preguntas: 30</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="card-text texto-cards">Tiempo: 10minutos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-box">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                 <div class="card-body">
+                    <h6 class="card-title">Box 2</h6>
+                    <div class="row">
+                        <div class="col-md-6 vl2">
+                            <p class="card-text subtitulo-cards">Atención: Ambulatoria</p>
+                            <p class="card-text texto-cards">N total de preguntas: 30</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="card-text texto-cards">Tiempo: 10minutos</p>
+                        </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-box">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h6 class="card-title">Box 3</h6>
+                    <div class="row">
+                        <div class="col-md-6 vl2">
+                            <p class="card-text subtitulo-cards">Atención: Ambulatoria</p>
+                            <p class="card-text texto-cards">N total de preguntas: 30</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="card-text texto-cards">Tiempo: 10minutos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4">
+            <div class="card card-box" >
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h6 class="card-title">Box 1</h6>
+                    <div class="row">
+                        <div class="col-md-6 vl2">
+                            <p class="card-text subtitulo-cards">Atención: Ambulatoria</p>
+                            <p class="card-text texto-cards">N total de preguntas: 30</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="card-text texto-cards">Tiempo: 10minutos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-box">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                 <div class="card-body">
+                    <h6 class="card-title">Box 2</h6>
+                    <div class="row">
+                        <div class="col-md-6 vl2">
+                            <p class="card-text subtitulo-cards">Atención: Ambulatoria</p>
+                            <p class="card-text texto-cards">N total de preguntas: 30</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="card-text texto-cards">Tiempo: 10minutos</p>
+                        </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-box">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h6 class="card-title">Box 3</h6>
+                    <div class="row">
+                        <div class="col-md-6 vl2">
+                            <p class="card-text subtitulo-cards">Atención: Ambulatoria</p>
+                            <p class="card-text texto-cards">N total de preguntas: 30</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="card-text texto-cards">Tiempo: 10minutos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4">
+            <div class="card card-box" >
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h6 class="card-title">Box 1</h6>
+                    <div class="row">
+                        <div class="col-md-6 vl2">
+                            <p class="card-text subtitulo-cards">Atención: Ambulatoria</p>
+                            <p class="card-text texto-cards">N total de preguntas: 30</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="card-text texto-cards">Tiempo: 10minutos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-box">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                 <div class="card-body">
+                    <h6 class="card-title">Box 2</h6>
+                    <div class="row">
+                        <div class="col-md-6 vl2">
+                            <p class="card-text subtitulo-cards">Atención: Ambulatoria</p>
+                            <p class="card-text texto-cards">N total de preguntas: 30</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="card-text texto-cards">Tiempo: 10minutos</p>
+                        </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-box">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h6 class="card-title">Box 3</h6>
+                    <div class="row">
+                        <div class="col-md-6 vl2">
+                            <p class="card-text subtitulo-cards">Atención: Ambulatoria</p>
+                            <p class="card-text texto-cards">N total de preguntas: 30</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="card-text texto-cards">Tiempo: 10minutos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4">
+            <div class="card card-box" >
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h6 class="card-title">Box 1</h6>
+                    <div class="row">
+                        <div class="col-md-6 vl2">
+                            <p class="card-text subtitulo-cards">Atención: Ambulatoria</p>
+                            <p class="card-text texto-cards">N total de preguntas: 30</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="card-text texto-cards">Tiempo: 10minutos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</body>   
+</html>

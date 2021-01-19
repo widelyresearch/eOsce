@@ -1,0 +1,37 @@
+.nav-link {
+    color: #FFFFFF;
+    font-family:'Segoe UI'; 
+    margin-left: 20px;
+    font-size:medium;
+    font-weight: lighter;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.iconosnavegacion{
+    font-size:1.5em !important;
+}
+
+.nav-item{
+    text-align-last: center;
+    color: #FFFFFF;
+}
+
+.fas{
+    margin-left: 20px;
+}
+
+.navbar{
+    background-color: #C4C4C4;
+    margin-bottom: 10px;
+}
+
+.titulos{
+    color: #00B0AE;
+    font-size: x-large;
+}
+
+.cuerpo{
+    padding-top: 20px;
+    background-color: #f5fffe;
+}
