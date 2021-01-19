@@ -1,0 +1,88 @@
+
+.nav-link {
+    color: #FFFFFF;
+    font-family:'Segoe UI'; 
+    margin-left: 20px;
+    font-size:medium;
+    font-weight: lighter;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.iconosnavegacion{
+    font-size:1.5em !important;
+}
+
+.nav-item{
+    text-align-last: center;
+    color: #FFFFFF;
+}
+
+.fas{
+    margin-left: 20px;
+}
+
+.navbar{
+    background-color: #C4C4C4;
+    margin-bottom: 10px;
+}
+
+.titulos{
+    color: #00B0AE;
+    font-size: x-large;
+}
+
+.cuerpo{
+    padding-top: 20px;
+    background-color: #f5fffe;
+}
+
+.tiemporeal{
+    text-align: center;
+}
+
+.iconostiemporeal{
+    font-size:2em !important;
+    color: #585857;
+}
+
+.titulostiemporeal{
+    color: #C4C4C4;
+    margin-bottom: 0px !important;
+}
+
+hr {
+    border-top: 2px solid #C4C4C4 !important;
+}
+
+.vl {
+    border-right: 2px solid #C4C4C4;
+    height: 100px;
+}
+
+.vl2 {
+    border-right: 1px solid #C4C4C4;
+    height: 50px;
+}
+
+.card-title{
+    color: #00B1AE;
+}
+
+.subtitulo-cards{
+    font-size: xx-small;
+    color: black;
+    margin-bottom: 5px !important;
+    text-align: left;
+}
+
+.texto-cards{
+    font-size: xx-small;
+    color: #585857;
+    text-align: left;
+}
+
+.card-box{
+    background-color: F7F8FA;
+    border: #C4C4C4;
+}
