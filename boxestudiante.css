@@ -1,0 +1,95 @@
+.nav-link {
+    color: #FFFFFF;
+    font-family:'Segoe UI'; 
+    margin-left: 20px;
+    font-size:medium;
+    font-weight: lighter;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.iconosnavegacion{
+    font-size:1.5em !important;
+}
+
+.nav-item{
+    text-align-last: center;
+    color: #FFFFFF;
+}
+
+.fas{
+    margin-left: 20px;
+}
+
+.navbar{
+    background-color: #C4C4C4;
+    margin-bottom: 10px;
+}
+
+.titulos{
+    color: #00B0AE;
+    font-size: x-large;
+}
+
+.cuerpo{
+    padding-top: 20px;
+    background-color: #f5fffe;
+}
+
+p{
+    margin-bottom: 0px !important;
+}
+
+.imagen-visualizacion{
+    width: 422px;
+    height: 422px; 
+    background-size: cover !important; 
+    background-position: center center !important;
+}
+
+.imagen-Prescripcion{
+    width: 240px;
+    height: 388px; 
+    background-size: cover !important; 
+    background-position: center center !important;
+}
+
+.boton-descargar{
+        background-color: #00B0AE;
+        color: #FFFFFF;
+        border-radius: 3px;
+        border: none;
+        font-size: small;
+        margin-top: 12px;
+}
+
+.dialogo-saludo{
+    background-color: rgb(53, 189, 53);
+    color: #FFFFFF;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.dialogo-pregunta{
+    background-color: darkgreen;
+    color: #FFFFFF;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.dialogo-conclusion{
+    background-color: red;
+    color: #FFFFFF;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.preguntas{
+    background-color: darkgreen;
+    color: #FFFFFF;
+}
